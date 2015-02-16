@@ -109,20 +109,23 @@
 \bookpart {
   \tocItem \markup { "Sample 1: Moderato in A minor"  }
   \include "op1-no1/op1-no1-lys/op1-no1-heads.ily"
-  % As needed, paper formatting applied to individual pieces
-  % may be overriden by adding a new \paper block below
-  %\paper { }
+  
+  % If needed, paper formatting applied to individual pieces
+  % may be overriden by updating the file below
+  \include "composer-op1-book-paper.ily"
+  
   \include "op1-no1/op1-no1-lys/op1-no1-score.ily"
 }
 
 %-- SECOND PIECE
-\include "op1-no2/op1-no2-lys/op1-no2-defs.ily"
 \include "op1-no2/op1-no2-lys/op1-no2-music.ily"
 \bookpart {
   \tocItem \markup { "Sample 2: Allegro in C major"  }
   \include "op1-no2/op1-no2-lys/op1-no2-heads.ily"
-  % As needed, paper formatting applied to individual pieces
-  % may be overriden by adding a new \paper block below
-  %\paper { }
+  
+  % If needed, paper formatting applied to individual pieces
+  % may be overriden by updating the file below
+  \include "composer-op1-book-paper.ily"
+  
   \include "op1-no2/op1-no2-lys/op1-no2-score.ily"
 }
